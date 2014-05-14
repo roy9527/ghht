@@ -52,7 +52,7 @@ public class MainCardActivity extends BaseActivity implements OnDismissCallback 
 		return items;
 	}
 
-	private static class GoogleCardsAdapter extends ArrayAdapter<Integer> {
+	public static class GoogleCardsAdapter extends ArrayAdapter<Integer> {
 
 		private final Context mContext;
 		private final LruCache<Integer, Bitmap> mMemoryCache;
