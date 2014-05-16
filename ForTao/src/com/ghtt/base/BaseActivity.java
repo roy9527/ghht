@@ -1,7 +1,7 @@
 package com.ghtt.base;
 
-import android.support.v4.app.FragmentActivity;
+import android.app.Activity;
 
-public class BaseActivity extends FragmentActivity {
+public class BaseActivity extends Activity {
 
 }
